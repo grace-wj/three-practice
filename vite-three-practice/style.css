@@ -1,0 +1,44 @@
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+main {
+  width: 100vw;
+  color: white;
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  margin: 0px auto;
+  padding: 120px 0px;
+  font-size: 2rem;
+
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+h1, h2 {
+  font-weight: 700;
+}
+
+header {
+  text-align: center;
+  font-size: 3rem;
+  background-color: black;
+  grid-column: 2 / span 5;
+  margin-bottom: 300px;
+  margin-top: 75px;
+}
+section {
+  grid-column: 2 / 7;
+  margin-bottom: 200px;
+}
+
+.light {
+  grid-column: 6 / 12;
+  text-align: right;
+}
+
+.final {
+  margin-bottom: 4000px;
+}
